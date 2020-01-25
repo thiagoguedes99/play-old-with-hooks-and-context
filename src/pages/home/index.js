@@ -39,12 +39,14 @@ export default function Home() {
     //     setHistory,
     //   }}
     // >
-    <GameContext.Provider>
+    // <GameContext.Provider>
+    <>
       <Player />
       <Reset />
       <Board />
       <Winner />
       <History />
-    </GameContext.Provider>
+    </>
+    // </GameContext.Provider>
   );
 }
