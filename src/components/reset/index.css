@@ -1,0 +1,11 @@
+.reset__button {
+  background: yellow;
+  padding: 10px 20px;
+  border: blue 1px solid;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.reset__button:focus {
+  background: red;
+}
